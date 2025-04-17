@@ -1,0 +1,61 @@
+/* 1. Set font family and background color for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8ff;
+    color: #333; /* Font color */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Style headers */
+h1, h2, h3 {
+    color: #0057b8; /* Font color for headers */
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* 3. Navigation or link section */
+nav a, a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* 4. Style for image section */
+.image-block {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* 5. Video block styling */
+.video-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6f0ff;
+    border-radius: 8px;
+}
+
+/* 6. Tableau graph section styling */
+#viz1744854237449 {
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    background-color: #ffffff;
+    border: 2px dashed #0077cc;
+}
+
+/* 7. Utility style for content boxes */
+.content-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    width: 85%;
+}
